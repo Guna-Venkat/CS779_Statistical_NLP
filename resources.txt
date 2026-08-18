@@ -1,0 +1,7 @@
+List of useful resources:
+
+Book (Dive into Deep Learning): https://d2l.ai/d2l-en.pdf
+ACL Anthology (for NLP Research Papers): https://www.aclweb.org/anthology/
+SpaCy Tutorial: https://spacy.io/usage/spacy-101 and https://course.spacy.io/en/
+PyTorch Tutorial: https://docs.pytorch.org/tutorials/
+Writing code for NLP research: https://tinyurl.com/rw9c2n5

@@ -1,0 +1,85 @@
+# Environment & Cache
+venv/
+nlp_env/
+indic_nlp_resources/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+.virtual_documents/
+.env
+
+# Binary Archives
+*.zip
+*.rar
+*.tar
+*.gz
+*.7z
+
+# Model Weights & Checkpoints
+*.pth
+*.pt
+*.bin
+*.h5
+*.ckpt
+*.onnx
+checkpoints/
+checkpoints_*/
+checkpoints_*
+Trained Model Weights.txt
+
+# Large Embeddings & Datasets
+glove.*
+*.json
+!SAMPLE.json
+train.txt
+train_*.txt
+input.txt
+input_data.txt
+sample-text.txt
+rare_words.txt
+vocab_sample.txt
+251140009_assignment2_*_detokenized.txt
+251140009_assignment2_*_tokens.txt
+251140009_assignment2_*_vocab_5000.txt
+
+# Large Generated Submission CSVs & Data Dumps
+answer.csv
+answers*.csv
+predictions_*.csv
+*_predictions.csv
+translations_output_*.csv
+translations_*.csv
+validation_translations_*.csv
+test_predictions_*.csv
+alternating_hindi_output.csv
+english_to_*.csv
+hindi*.csv
+q3_pos_tagged_results.csv
+q3_tokenization_document_lengths.csv
+q3_ner_results.csv
+q3_parsed_wiki_dataset.json
+q6_train_preprocessed_lemmatized_nostop.csv
+q3_article_tfidf_categories.csv
+q3_token_frequencies.csv
+q6_sim_experiment_results.csv
+intermediate_results/*.csv
+
+# Heavy Lecture Slides & Course PDFs
+Slides/
+Slides.rar
+d2l-en.pdf
+CS779_*.pdf
+
+# Submission Export Directories (Duplicate trees)
+CS779-A1-Guna-Venkat-Doddi-251140009/
+CS779-A2-Guna-Venkat-Doddi-251140009/
+CS779-A3-Guna-Venkat-Doddi-251140009/
+CS779-A1-Guna-Venkat-Doddi-251140009.zip
+CS779-A2-Guna-Venkat-Doddi-251140009.zip
+CS779-A3-Guna-Venkat-Doddi-251140009.zip
+Capstone Project.rar

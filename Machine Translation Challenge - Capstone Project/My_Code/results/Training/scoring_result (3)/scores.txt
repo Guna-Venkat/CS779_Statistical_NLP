@@ -1,0 +1,4 @@
+bleu_score: 0.033000
+rouge_score: 0.270000
+chrf_score: 0.238000
+total_score: 0.541000

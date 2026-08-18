@@ -1,0 +1,120 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+%\usepackage{geometry} 
+\usepackage[margin=0.8in]{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+\usepackage{hyperref}
+
+%SetFonts
+
+%SetFonts
+%\vspace{-5ex}
+
+%\title{\vspace{-10ex} Research Proposal: Computational Morality \vspace{-5ex}}
+\title{CS779 Competition: Machine Translation System for India}
+
+\author{
+    FirstName $<$Middle Name if any$>$ LastName  \\ 
+    roll no.\\
+   {\tt \{name\}@iitk.ac.in}\\
+{Indian Institute of Technology Kanpur (IIT Kanpur)}
+}
+
+
+\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+\abstract{Write a brief abstract about your models, competition, your rank and scores for various evaluation metrics, etc. Abstract should not be more than 100 words long.}
+
+
+\section*{Some Guidelines}
+\begin{enumerate}
+\item Please do not show your creativity (you are already chance in the competition!) and  do not change the title and follow the format that is there above.
+\item Follow the sections given below, you should have the same sections in your report.
+\item \textbf{The maximum length of the report is maximum 8 pages (without references), not even a single character more!} You can use any number of pages for references. This is a strict limit. If your report exceeds by even one character, you get a zero.
+\item The sections given below are compulsory and you should cover the points mentioned below. Also I have written the things point-wise, of course you will write properly in paragraph format. However, you are free to have more things within the sections as well. You can create subsections within a section.  Creativity and innovation counts! 
+\item There should be no grammar or spelling mistakes! Please use Grammarly, you have free subscription! 
+\item As already pointed out, we are very strict about plagiarism. We will be using softwares to check for plagiarism. So please cite the relevant papers/sources and do not copy paste from somewhere. Explain techniques/methods from your perspective. If your report is found to be plagiarized then the entire group gets a F grade in the course.  
+\item You can cite papers like this \cite{sepehr:AAMAS2019, colombo:NAACL2019}. You can create a footnote like this \footnote{\url{https://en.wikipedia.org}} 
+\item If you write any mathematical equations please use latex. 
+\item You can have images in your report but do not forget to cite them, if you have taken from somewhere. Do not paste an image directly from the papers, make sure the images are of high quality and should not get blurred on zooming. So best way to do it use either SVG images or PDF images. In general, it is always better to create images on your own. 
+\item Use the quotation marks properly, use these ``Quote" instead of these "Quote"
+\item In your final report, obviously remove these guidelines. 
+\item USE OF CHAT-GPT OR ANY LLM FOR WRITING THE REPORT IS PROHIBITED! 
+\end{enumerate}
+
+\section{Competition Result}
+\textbf{Codalab Username:} Enter your username here \\ 
+\textbf{Final Leaderboard Rank on the Test Set:} Enter your rank \\ 
+\textbf{chrF++ Score corresponding to the Final Rank:} Enter the score \\ 
+\textbf{ROUGE Score corresponding to the Final Rank:} Enter the score \\ 
+\textbf{BLEU Score corresponding to the Final Rank:} Enter the score \\ 
+\textbf{Total Number of Submissions in the Training Phase:} Enter the number of submissions \\ 
+\textbf{Total Number of Submissions in the Testing Phase:} Enter the number of submissions \\ 
+\textbf{Table showing the Number of Submissions made each Week during the Training Phase:} \\
+
+
+\section{Problem Description}
+What are you trying to solve? Brief overview of the problem, the problem setting, etc. 
+
+\section{Data Analysis}
+ \begin{enumerate}
+\item Describe the train dataset that has been provided to you. 
+\item Analysis of the data, e.g., corpus statistics, noise in the corpus, etc. 
+\item Test data will also be provided to you, so you can do analysis of that as well, e.g., how much does it differ from train data? 
+\item  Some interesting insights about the data? You can use visualizations if you like. Be creative! 
+\end{enumerate}
+ 
+
+\section{Model Description}
+ 
+ \begin{enumerate}
+\item Model evolution: Describe the models in detail that you experimented with in each of the phases, what were the key learnings in each phase that lead to making changes to model architecture or switching to a new model. You can have figures for model architectures. 
+\item If you took inspiration from an existing MT model, please cite the paper(s).
+\item Detailed description of the final model that worked best on the test set. You can have figures for model architectures.  
+\item Model objective (loss) functions. 
+\item Inference: details of what kind of decoding strategy (e.g., greedy, beam search, etc.), did you use? What was the motivation for it? If you tried different strategies, describe the evolution from one strategy to another. 
+\end{enumerate}
+
+
+
+\section{Experiments}
+
+\begin{enumerate}
+\item Data Pre-processing you did both for source and target language. What was the reason for doing this kind of pre-processing. 
+\item Training procedure: Optimizer, learning rates, epochs, training time, etc for different models you tried
+\item Details about different hyper-parameters for different models. You can use tabular format if you like. How did you arrive at these hyper-parameters? 
+\end{enumerate}
+
+
+\section{Results}
+
+\begin{enumerate}
+\item Results of different models on dev data in tabular format. If you didn't take part in the training phase, leave it blank. \item In the results table show all metrics, as provided in the evaluation scripts. You can also have a column for rank on the leaderboard if you like. 
+\item Results of different models on the test data in tabular format. 
+\item Briefly explain the results, e.g., what was the best performing model on dev set, test set. Why do you think this model worked better than all other models?
+\end{enumerate}
+
+\section{Error Analysis}
+
+\begin{enumerate}
+\item Error analysis of your different models both on the dev set and the test set. What models worked in general and in what kind of setting? What was the reason for it?
+\item Error analysis includes analysis of the model, you can use visualizations for this. For e.g., if you used attention mechanism you can use, attention heat maps, etc. 
+\item Analyze why models are not perfect? E.g., what kind of mistakes are made by the best model, how could these be overcome?
+\item Any interesting insights! 
+\end{enumerate}
+
+\section{Conclusion} 
+
+Finally conclude the report with your key findings, what would you recommend? What would be possible future directions, etc. 
+ 
+\bibliography{references} 
+\bibliographystyle{ieeetr}
+
+\end{document}  
